@@ -18,6 +18,9 @@ client.on('messageCreate', message => {
     if(message.content === 'mang0') {
         message.reply('the GOAT');
     }
+    if(message.content === 'majors') {
+        message.reply('https://meleemajors.com/');
+    }
 })
 
 client.login(process.env.TOKEN);
