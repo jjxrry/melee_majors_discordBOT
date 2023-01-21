@@ -2,7 +2,7 @@
   "name": "melee_major_bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app",
@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/jjxrry/melee_major_bot#readme",
   "dependencies": {
+    "axios": "^1.2.2",
     "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3"
   }
 }
